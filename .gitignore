@@ -1,0 +1,13 @@
+# PlatformIO
+.pio/
+
+# VS Code
+.vscode/
+
+# Python cache (if you ever add Python scripts)
+__pycache__/
+*.pyc
+
+# Operating system files
+.DS_Store
+Thumbs.db
