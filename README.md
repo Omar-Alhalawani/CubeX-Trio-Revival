@@ -84,7 +84,7 @@ The following work has been completed:
 
 The original CubeX motherboard was replaced with a BIGTREETECH SKR V1.4 Turbo.
 
-The board is running Marlin using the LPC1769 build environment.
+The board is running Marlin using the NXP LPC1769 build environment.
 
 ### Stepper Driver Assignments
 
