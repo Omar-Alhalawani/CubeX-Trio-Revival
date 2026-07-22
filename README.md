@@ -2,9 +2,15 @@
 
 ## Overview
 
-This project converts a discontinued 3D Systems CubeX Trio into an open-source, Marlin-controlled 3D printer.
+This project modernizes a discontinued **3D Systems CubeX Trio** by replacing its closed, manufacturer-controlled hardware and software with widely supported, open-source 3D printer components.
 
-The original proprietary motherboard, filament system, and hotend are being replaced with modern RepRap-compatible components. The printer is currently being converted into a single-extruder Bowden printer, with the option to add more extruders later.
+The original CubeX motherboard, hotend, extruder, and proprietary filament system are being replaced with modern parts that can run **Marlin**, an open-source firmware used to control many custom and commercial 3D printers.
+
+The printer is initially being rebuilt as a **single-extruder Bowden printer**. This means it will print with one material at a time, while the motor that pushes the filament is mounted away from the moving printhead. The filament travels through a tube to the hotend, where it is melted and deposited onto the print bed.
+
+The design may later be expanded to support additional extruders.
+
+The conversion follows the general **RepRap** approach. RepRap is an open-source 3D printing platform based on standardized, replaceable, and well-documented components. This makes the printer easier to repair, upgrade, and modify without relying on discontinued or manufacturer-specific parts.
 
 ## Main Goals
 
